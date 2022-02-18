@@ -16,6 +16,7 @@ struct Landmark: Hashable, Codable, Identifiable { // DB 형식으로 json 읽�
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {
